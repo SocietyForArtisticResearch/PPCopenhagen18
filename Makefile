@@ -1,4 +1,4 @@
-presentation: new_features.html
+presentation: new_features.html expo.html
 
 
 %.html : %.md

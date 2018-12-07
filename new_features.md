@@ -26,9 +26,9 @@ transition: fade
 
 # Search
 
-* Findability
-* JSON 
-* Keywords
+* Findability: Search for authors, titles etc. will return associated objects.
+* Seach results can be exported as JSON 
+* Results can thus be processed
 
 # HTML Import
 
@@ -48,6 +48,7 @@ transition: fade
 
 # Source Code Availability
 
+* Up-to-date source code is available 
 * https://www.researchcatalogue.net/docu/researchcatalogue.zip
 
 # Text-Editor Fixes and Updates

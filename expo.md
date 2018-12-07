@@ -5,10 +5,22 @@ date: December 13, 2018
 transition: fade
 ---
 
-as digital object an exposition links human authoring and consumption with machine processing
-a dynamic creator of techno-aesthetic relations and translations of concepts and practices.
-different milieux: aesthetic, political, technological and social context
 
+
+# RC Exposition
+
+* Publication format and a authoring framework (editor)
+* Technology of reading and writing
+* Allow for ways of experiencing, developing and documenting artistic research
+* Exposition editor as a research tool
+* Untapped potential
+
+# RC Exposition as a Digital Object
+
+* Links human authoring and consumption with machine processing
+* A dynamic creator of techno-aesthetic relations 
+* Different milieux: aesthetic, political, technological and social context
+* Can be processes, programmed, transformed and linked and extended
 
 <!-- the inner composition of graphical expositions still -->
 <!-- remains opaque to machines, which hampers adaptability and long-term archiving. -->
