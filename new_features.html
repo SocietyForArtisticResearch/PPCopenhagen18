@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Döbereiner/Schipper">
+  <meta name="dcterms.date" content="2018-12-13">
+  <title>New RC Features</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'http://lab.hakim.se/reveal-js/css/print/pdf.css' : 'http://lab.hakim.se/reveal-js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="http://lab.hakim.se/reveal-js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">New RC Features</h1>
+  <p class="author">Döbereiner/Schipper</p>
+  <p class="date">December 13, 2018</p>
+</section>
+
+<section id="php-7-upgrade" class="slide level1">
+<h1>PHP 7 Upgrade</h1>
+<ul>
+<li>Increase of loading speed of administration pages (user list 8s vs 47s)</li>
+<li>Editing and creating tools is significantly faster</li>
+<li>Expositions loading time ca. 1/3</li>
+<li>Code cleanup</li>
+<li>Demo</li>
+</ul>
+</section>
+<section id="web-analytics" class="slide level1">
+<h1>Web Analytics</h1>
+<ul>
+<li>One designated admin per portal has access to their statistics</li>
+<li>Total visits</li>
+<li>Visits by Exposition</li>
+<li>Average visit duration</li>
+<li>Visits by country</li>
+<li>https://monitoring.researchcatalogue.net</li>
+</ul>
+</section>
+<section id="dealing-with-autoplay" class="slide level1">
+<h1>Dealing with Autoplay</h1>
+</section>
+<section id="search" class="slide level1">
+<h1>Search</h1>
+<ul>
+<li>Findability</li>
+<li>JSON</li>
+<li>Keywords</li>
+</ul>
+</section>
+<section id="html-import" class="slide level1">
+<h1>HTML Import</h1>
+<ul>
+<li>Expositions can created directly using HTML/CSS and uploaded</li>
+<li>Allows for multiple pages</li>
+<li>Filtering of potentially dangerous content (no JS)</li>
+<li>Automatic transcoding of media content</li>
+<li>Upload as a single zip-File</li>
+</ul>
+</section>
+<section id="responsiveness-of-rc-pages" class="slide level1">
+<h1>Responsiveness of RC Pages</h1>
+<ul>
+<li>Main RC pages are now responsive</li>
+<li>Front page, profile page, details page</li>
+<li>https://researchcatalogue.net</li>
+</ul>
+</section>
+<section id="sharing-link" class="slide level1">
+<h1>Sharing Link</h1>
+</section>
+<section id="source-code-availability" class="slide level1">
+<h1>Source Code Availability</h1>
+<ul>
+<li>https://www.researchcatalogue.net/docu/researchcatalogue.zip</li>
+</ul>
+</section>
+<section id="text-editor-fixes-and-updates" class="slide level1">
+<h1>Text-Editor Fixes and Updates</h1>
+<ul>
+<li>Captions</li>
+<li>Saving/Loading</li>
+<li>Warning when deleting media items</li>
+<li>Preview of missing media</li>
+<li>Appending of imported documents</li>
+</ul>
+</section>
+<section id="k-video-import" class="slide level1">
+<h1>4K Video Import</h1>
+</section>
+<section id="user-management" class="slide level1">
+<h1>User Management</h1>
+<ul>
+<li>Users can be removed from the portal but not deleted by the admin</li>
+<li>Admins can create reviewer accounts that are automatically confirmed</li>
+<li>“Members of” list is no longer displayed on public profile</li>
+<li>https://www.researchcatalogue.net/admin/user/list?context=26</li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="http://lab.hakim.se/reveal-js/lib/js/head.min.js"></script>
+  <script src="http://lab.hakim.se/reveal-js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+        // Transition style
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'http://lab.hakim.se/reveal-js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'http://lab.hakim.se/reveal-js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'http://lab.hakim.se/reveal-js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
