@@ -18,6 +18,8 @@ transition: fade
 
 * Up-to-date source code is available 
 * https://www.researchcatalogue.net/docu/researchcatalogue.zip
+* Github: <https://github.com/SocietyForArtisticResearch>
+* Development blog: <https://societyforartisticresearch.github.io/rcblogpublic/>
 
 
 # Web Analytics
