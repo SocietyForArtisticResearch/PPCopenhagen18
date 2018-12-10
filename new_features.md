@@ -7,22 +7,46 @@ transition: fade
 
 # PHP 7 Upgrade
 
+* Upgrade of all code from PHP 5
 * Increase of loading speed of administration pages (user list  8s vs 47s)
 * Editing and creating tools is significantly faster
 * Expositions loading time ca. 1/3
 * Code cleanup
-* Demo
+
+
+# Source Code Availability
+
+* Up-to-date source code is available 
+* https://www.researchcatalogue.net/docu/researchcatalogue.zip
+
 
 # Web Analytics
 
-* One designated admin per portal has access to their statistics
+* One designated admin per portal has access to statistics
 * Total visits
 * Visits by Exposition
 * Average visit duration
 * Visits by country
-* https://monitoring.researchcatalogue.net
+* <https://monitoring.researchcatalogue.net>
 
-# Dealing with Autoplay
+# Sharing Link
+
+
+# HTML Import
+
+* Expositions can created directly using HTML/CSS and uploaded
+* Allows for multiple pages
+* Filtering of potentially dangerous content (no *JavaScript*)
+* Automatic transcoding of media content
+* Upload as a single zip-File
+
+
+# Responsiveness of RC Pages
+
+* Main RC pages are now responsive 
+* Front page, profile page, details page 
+* <https://researchcatalogue.net>
+
 
 # Search
 
@@ -30,26 +54,13 @@ transition: fade
 * Seach results can be exported as JSON 
 * Results can thus be processed
 
-# HTML Import
+# User Management
 
-* Expositions can created directly using HTML/CSS and uploaded
-* Allows for multiple pages
-* Filtering of potentially dangerous content (no JS)
-* Automatic transcoding of media content
-* Upload as a single zip-File
+* Users can be removed from the portal but not deleted by the admin
+* Admins can create reviewer accounts that are automatically confirmed
+* "Members of" list is no longer displayed on public profile
+* <https://www.researchcatalogue.net/admin/user/list?context=26>
 
-# Responsiveness of RC Pages
-
-* Main RC pages are now responsive 
-* Front page, profile page, details page 
-* https://researchcatalogue.net
-
-# Sharing Link
-
-# Source Code Availability
-
-* Up-to-date source code is available 
-* https://www.researchcatalogue.net/docu/researchcatalogue.zip
 
 # Text-Editor Fixes and Updates
 
@@ -59,11 +70,9 @@ transition: fade
 * Preview of missing media
 * Appending of imported documents
 
+
 # 4K Video Import
 
-# User Management
 
-* Users can be removed from the portal but not deleted by the admin
-* Admins can create reviewer accounts that are automatically confirmed
-* "Members of" list is no longer displayed on public profile
-* https://www.researchcatalogue.net/admin/user/list?context=26
+# Dealing with Autoplay
+

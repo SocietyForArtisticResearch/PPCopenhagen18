@@ -7,20 +7,14 @@ transition: fade
 
 
 
-# RC Exposition
-
-* Publication format and a authoring framework (editor)
-* Technology of reading and writing
-* Allow for ways of experiencing, developing and documenting artistic research
-* Exposition editor as a research tool
-* Untapped potential
-
 # RC Exposition as a Digital Object
 
+* Publication format and an authoring framework
 * Links human authoring and consumption with machine processing
-* A dynamic creator of techno-aesthetic relations 
 * Different milieux: aesthetic, political, technological and social context
 * Can be processes, programmed, transformed and linked and extended
+* Exposition editor as a research tool
+* Untapped potential
 
 <!-- the inner composition of graphical expositions still -->
 <!-- remains opaque to machines, which hampers adaptability and long-term archiving. -->
