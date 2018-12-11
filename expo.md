@@ -9,12 +9,14 @@ transition: fade
 
 # RC Exposition as a Digital Object
 
-* Publication format and an authoring framework
-* Links human authoring and consumption with machine processing
-* Different milieux: aesthetic, political, technological and social context
-* Can be processes, programmed, transformed and linked and extended
-* Exposition editor as a research tool
-* Untapped potential
+<ul>
+<li class="fragment">Untapped potential</li>
+<li class="fragment">Publication format and an authoring framework</li>
+<li class="fragment">Links human authoring and consumption with machine processing</li>
+<li class="fragment">Can be processes, programmed, transformed and linked and extended</li>
+<li class="fragment">Different milieux: aesthetic, political, technological and social context</li>
+<li class="fragment">Exposition editor as a research tool</li>
+</ul>
 
 <!-- the inner composition of graphical expositions still -->
 <!-- remains opaque to machines, which hampers adaptability and long-term archiving. -->
@@ -26,7 +28,7 @@ transition: fade
 <li class="fragment">Hampers drafting and sketching</li>
 <li class="fragment">A text cannot exist without a width, height and position</li>
 <li class="fragment">Productiveness of the indeterminate in experimental practices</li>
-<li class="fragment">Accommodate the tentative and fragmentary</li>
+<li class="fragment">Need to accommodate the tentative and fragmentary</li>
 </ul>
 
 # Challenge 2: Absolute Positioning
@@ -62,10 +64,10 @@ changing data structure</li>
 # Multiplicity
 
 <ul>
-<li class="fragment">Formal specification</li>
+<li class="fragment">Need for a formal format specification</li>
 <li class="fragment">Multiple authoring tools</li>
 <li class="fragment">Greatly enhances the long-term accessibility and digital preservation</li>
-<li class="fragment">Content not tied to a single format or implementation</li>
+<li class="fragment">Content not tied to a single implementation</li>
 </ul>
 
 # Adaptability
@@ -73,7 +75,7 @@ changing data structure</li>
 <center>
 <blockquote> The control which designers know in the print medium, and
 often desire in the web medium, is simply a function of the limitation
-of the printed page. We should embrace the fact that the web doesn’t
+of the printed page. We should embrace the fact that the web doesn't
 have the same constraints, and design for this
 flexibility. </blockquote> (John Allsopp, "A Dao of Web Design", 2000)
 </center>
@@ -96,3 +98,5 @@ flexibility. </blockquote> (John Allsopp, "A Dao of Web Design", 2000)
 <li class="fragment">Exposition as a dynamic digital object that can
 connect to other objects, services, technologies and humans</li> 
 </ul>
+
+# Thanks!
