@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Casper Schipper &amp; Luc Döbereiner">
+  <meta name="dcterms.date" content="2018-12-13">
+  <title>Import of external formats in graphical editor</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'http://lab.hakim.se/reveal-js/css/print/pdf.css' : 'http://lab.hakim.se/reveal-js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="http://lab.hakim.se/reveal-js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">Import of external formats in graphical editor</h1>
+  <p class="author">Casper Schipper &amp; Luc Döbereiner</p>
+  <p class="date">December 13, 2018</p>
+</section>
+
+<section id="current" class="slide level1">
+<h1>Current</h1>
+<ul>
+<li>Copy/paste directly from Word</li>
+</ul>
+</section>
+<section id="challenges" class="slide level1">
+<h1>Challenges</h1>
+<ul>
+<li>images are not copied with the text</li>
+<li>alignment issues with tall text tools</li>
+<li>styling breaks</li>
+<li>fonts are copied, are visible to author, but cause trouble with other users (!)</li>
+<li>footnotes are imported, but not as RC footnotes, hyperlinks do not work</li>
+</ul>
+</section>
+<section id="current-remedies" class="slide level1">
+<h1>Current remedies</h1>
+<ul>
+<li>split everything by hand</li>
+<li>use only plain text</li>
+<li>use separate tools for each section <a href="https://guide.researchcatalogue.net#text-tool">text-tool help</a></li>
+</ul>
+</section>
+<section id="goal" class="slide level1">
+<h1>Goal</h1>
+<ul>
+<li>automatically translating the word doc into graphical editor slices</li>
+<li>enable rethinking the material in the new graphic &amp; non-linear context</li>
+<li>get clean HTML in flexible slices</li>
+</ul>
+</section>
+<section id="solution" class="slide level1">
+<h1>Solution</h1>
+<ul>
+<li>in Simple Media, a Word / Odt file can be uploaded, which is converted to HTML, text &amp; picture tools.</li>
+<li>text is subdivided into <strong>separate</strong> tools (based on the position of images in the text, as well as headers)</li>
+<li>all tools are numbered in the order of their occurrence in the original</li>
+<li>footnotes of the original document are also converted to RC-Auto-Footnotes.</li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="http://lab.hakim.se/reveal-js/lib/js/head.min.js"></script>
+  <script src="http://lab.hakim.se/reveal-js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Transition style
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'http://lab.hakim.se/reveal-js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'http://lab.hakim.se/reveal-js/plugin/zoom-js/zoom.js', async: true },
+              { src: 'http://lab.hakim.se/reveal-js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

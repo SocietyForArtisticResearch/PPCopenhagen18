@@ -1,4 +1,4 @@
-presentation: new_features.html expo.html
+presentation: new_features.html expo.html word_import.html
 
 
 %.html : %.md

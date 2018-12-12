@@ -10,12 +10,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/reveal.css">
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
-  </style>
+  <style type="text/css">code{white-space: pre;}</style>
   <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/theme/black.css" id="theme">
   <link rel="stylesheet" href="style.css"/>
   <!-- Printing and PDF exports -->
@@ -34,7 +29,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide">
+<section>
   <h1 class="title">The Research Catalogue Exposition as a Digital Object: Challenges and Future</h1>
   <p class="author">Luc Döbereiner</p>
   <p class="date">December 13, 2018</p>
@@ -157,9 +152,9 @@ Content not tied to a single implementation
 <h1>Adaptability</h1>
 <center>
 <blockquote>
-The control which designers know in the print medium, and often desire in the web medium, is simply a function of the limitation of the printed page. We should embrace the fact that the web doesn’t have the same constraints, and design for this flexibility.
+The control which designers know in the print medium, and often desire in the web medium, is simply a function of the limitation of the printed page. We should embrace the fact that the web doesn't have the same constraints, and design for this flexibility.
 </blockquote>
-(John Allsopp, “A Dao of Web Design”, 2000)
+(John Allsopp, &quot;A Dao of Web Design&quot;, 2000)
 </center>
 </section>
 <section id="adaptability-1" class="slide level1">
@@ -210,8 +205,6 @@ Exposition as a dynamic digital object that can connect to other objects, servic
       // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
-        // Push each slide change to the browser history
-        history: true,
         // Transition style
         transition: 'fade', // none/fade/slide/convex/concave/zoom
 
@@ -219,7 +212,7 @@ Exposition as a dynamic digital object that can connect to other objects, servic
         dependencies: [
           { src: 'http://lab.hakim.se/reveal-js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
           { src: 'http://lab.hakim.se/reveal-js/plugin/zoom-js/zoom.js', async: true },
-          { src: 'http://lab.hakim.se/reveal-js/plugin/notes/notes.js', async: true }
+              { src: 'http://lab.hakim.se/reveal-js/plugin/notes/notes.js', async: true }
         ]
       });
     </script>

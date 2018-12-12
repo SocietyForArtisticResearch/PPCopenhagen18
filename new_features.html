@@ -10,12 +10,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/reveal.css">
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
-  </style>
+  <style type="text/css">code{white-space: pre;}</style>
   <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/theme/black.css" id="theme">
   <link rel="stylesheet" href="style.css"/>
   <!-- Printing and PDF exports -->
@@ -34,7 +29,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide">
+<section>
   <h1 class="title">New RC Features</h1>
   <p class="author">Döbereiner/Schipper</p>
   <p class="date">December 13, 2018</p>
@@ -104,7 +99,7 @@
 <ul>
 <li>Users can be removed from the portal but not deleted by the admin</li>
 <li>Admins can create reviewer accounts that are automatically confirmed</li>
-<li>“Members of” list is no longer displayed on public profile</li>
+<li>&quot;Members of&quot; list is no longer displayed on public profile</li>
 <li><a href="https://www.researchcatalogue.net/admin/user/list?context=26" class="uri">https://www.researchcatalogue.net/admin/user/list?context=26</a></li>
 </ul>
 </section>
@@ -135,8 +130,6 @@
       // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
-        // Push each slide change to the browser history
-        history: true,
         // Transition style
         transition: 'fade', // none/fade/slide/convex/concave/zoom
 
@@ -144,7 +137,7 @@
         dependencies: [
           { src: 'http://lab.hakim.se/reveal-js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
           { src: 'http://lab.hakim.se/reveal-js/plugin/zoom-js/zoom.js', async: true },
-          { src: 'http://lab.hakim.se/reveal-js/plugin/notes/notes.js', async: true }
+              { src: 'http://lab.hakim.se/reveal-js/plugin/notes/notes.js', async: true }
         ]
       });
     </script>
