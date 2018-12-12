@@ -55,6 +55,7 @@ transition: fade
 * Findability: Search for authors, titles etc. will return associated objects.
 * Seach results can be exported as JSON 
 * Results can thus be processed
+* example : <https://www.researchcatalogue.net/view/496747/496748>
 
 # User Management
 
@@ -75,6 +76,14 @@ transition: fade
 
 # 4K Video Import
 
+* this used to be turned off, but is now allowed.
 
 # Dealing with Autoplay
+
+* Safari is blocking auto play by default.
+* There was no warning for the reader that something was blocked.
+
+## We now catch this situation and:
+* when audio/video is blocked the user is prompted to start playback manually.
+
 
