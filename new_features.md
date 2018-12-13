@@ -34,6 +34,8 @@ transition: fade
 # Sharing Link
 
 
+![sharing](share.png)
+
 # HTML Import
 
 * Expositions can created directly using HTML/CSS and uploaded
@@ -76,14 +78,13 @@ transition: fade
 
 # 4K Video Import
 
-* this used to be turned off, but is now allowed.
+* This used to be turned off, but is now allowed.
 
 # Dealing with Autoplay
 
 * Safari is blocking auto play by default.
 * There was no warning for the reader that something was blocked.
-
-## We now catch this situation and:
-* when audio/video is blocked the user is prompted to start playback manually.
+* We now catch this situation and:
+	* When audio/video is blocked, the user is prompted to start playback manually.
 
 

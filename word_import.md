@@ -11,27 +11,27 @@ transition: fade
    	
 # Challenges
 
-* images are not copied with the text
-* alignment issues with tall text tools
-* styling breaks
-* fonts are copied, are visible to author, but cause trouble with other users (!)
-* footnotes are imported, but not as RC footnotes, hyperlinks do not work 
+* Images are not copied with the text
+* Alignment issues with tall text tools
+* Styling breaks
+* Fonts are copied, are visible to author, but cause trouble with other users (!)
+* Footnotes are imported, but not as RC footnotes, hyperlinks do not work 
 
 # Current remedies
 
-* split everything by hand
-* use only plain text
-* use separate tools for each section [text-tool help](https://guide.researchcatalogue.net#text-tool)
+* Split everything by hand
+* Use only plain text
+* Use separate tools for each section [text-tool help](https://guide.researchcatalogue.net#text-tool)
 
 # Goal
 
-* automatically translating the word doc into graphical editor slices
-* enable rethinking the material in the new graphic & non-linear context
-* get clean HTML in flexible slices
+* Automatically translating the word doc into graphical editor slices
+* Enable rethinking the material in the new graphic & non-linear context
+* Get clean HTML in flexible slices
 
 # Solution
 
-* in Simple Media, a Word / Odt file can be uploaded, which is converted to HTML, text & picture tools.
-* text is subdivided into __separate__ tools (based on the position of images in the text, as well as headers)
-* all tools are numbered in the order of their occurrence in the original 
-* footnotes of the original document are also converted to RC-Auto-Footnotes. 
+* In Simple Media, a Word / Odt file can be uploaded, which is converted to HTML, text & picture tools
+* Text is subdivided into __separate__ tools (based on the position of images in the text, as well as headers)
+* All tools are numbered in the order of their occurrence in the original 
+* Footnotes of the original document are also converted to RC-Auto-Footnotes. 

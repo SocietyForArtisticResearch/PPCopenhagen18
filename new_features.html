@@ -10,7 +10,12 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/reveal.css">
-  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
   <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/theme/black.css" id="theme">
   <link rel="stylesheet" href="style.css"/>
   <!-- Printing and PDF exports -->
@@ -29,7 +34,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section>
+<section id="title-slide">
   <h1 class="title">New RC Features</h1>
   <p class="author">Döbereiner/Schipper</p>
   <p class="date">December 13, 2018</p>
@@ -67,6 +72,9 @@
 </section>
 <section id="sharing-link" class="slide level1">
 <h1>Sharing Link</h1>
+<figure>
+<img data-src="share.png" alt="sharing" /><figcaption>sharing</figcaption>
+</figure>
 </section>
 <section id="html-import" class="slide level1">
 <h1>HTML Import</h1>
@@ -100,7 +108,7 @@
 <ul>
 <li>Users can be removed from the portal but not deleted by the admin</li>
 <li>Admins can create reviewer accounts that are automatically confirmed</li>
-<li>&quot;Members of&quot; list is no longer displayed on public profile</li>
+<li>“Members of” list is no longer displayed on public profile</li>
 <li><a href="https://www.researchcatalogue.net/admin/user/list?context=26" class="uri">https://www.researchcatalogue.net/admin/user/list?context=26</a></li>
 </ul>
 </section>
@@ -117,7 +125,7 @@
 <section id="k-video-import" class="slide level1">
 <h1>4K Video Import</h1>
 <ul>
-<li>this used to be turned off, but is now allowed.</li>
+<li>This used to be turned off, but is now allowed.</li>
 </ul>
 </section>
 <section id="dealing-with-autoplay" class="slide level1">
@@ -125,10 +133,10 @@
 <ul>
 <li>Safari is blocking auto play by default.</li>
 <li>There was no warning for the reader that something was blocked.</li>
-</ul>
-<h2 id="we-now-catch-this-situation-and">We now catch this situation and:</h2>
+<li>We now catch this situation and:
 <ul>
-<li>when audio/video is blocked the user is prompted to start playback manually.</li>
+<li>When audio/video is blocked, the user is prompted to start playback manually.</li>
+</ul></li>
 </ul>
 </section>
     </div>
@@ -142,6 +150,8 @@
       // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
         // Transition style
         transition: 'fade', // none/fade/slide/convex/concave/zoom
 
@@ -149,7 +159,7 @@
         dependencies: [
           { src: 'http://lab.hakim.se/reveal-js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
           { src: 'http://lab.hakim.se/reveal-js/plugin/zoom-js/zoom.js', async: true },
-              { src: 'http://lab.hakim.se/reveal-js/plugin/notes/notes.js', async: true }
+          { src: 'http://lab.hakim.se/reveal-js/plugin/notes/notes.js', async: true }
         ]
       });
     </script>
